@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generste Safe Passwords</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/c7aa946b7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="title">
+    <h2 class="main">Random Password Generator</h2>
+    <h5 class="sub">You deserve a safe password!</h5>
+  </div>
+  <div class="container-box">
+    <div class="stuffs">
+      <div class="result-box">
+        <span id="result"></span>
+        <button id="clipboard">
+          <i class="fa fa-clipboard"></i>
+        </button>
+      </div>
+        <div class="opt">
+          <label for="#pass-length">Password Length</label>
+          <input type="number" id="length" min="4" max="32" value="16">
+        </div>
+  
+        <div class="opt">
+          <label for="#uppercase">Include Uppercase Letters</label>
+          <input type="checkbox" id="uppercase" checked>
+        </div>
+  
+        <div class="opt">
+          <label for="#lowercase">Include Lowercase Letters</label>
+          <input type="checkbox" id="lowercase" checked>
+        </div>
+  
+        <div class="opt">
+          <label for="#numbers">Include Numbers</label>
+          <input type="checkbox" id="numbers" checked>
+        </div>
+  
+        <div class="opt">
+          <label for="#symbols">Include Symbols</label>
+          <input type="checkbox" id="symbols" checked>
+        </div>
+        <div class="btn">
+          <button class="gen-btn" id="generate" value="gen">Generate Password</button>
+        </div>
+
+    </div>
+  </div>
+</body>
+</html>

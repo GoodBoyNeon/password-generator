@@ -1,0 +1,141 @@
+/* IMPORTS */
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+/* DOCUMENT STYLING */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Muli";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* TITLE STYLING */
+.title {
+	cursor: default;
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 10px;
+}
+.title .main {
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 175px;
+	margin-bottom: 2px;
+}
+.title .sub {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+/* MAIN CONTAINER STYLING */
+.container-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border-radius: 1.3rem;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 380px;
+	max-width: 100%;
+}
+
+/* OUTPTUT BOX STYLING */
+.result-box {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 17px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+	border-radius: 0.6rem;
+	margin-bottom: 20px;
+}
+.result-box #result {
+	text-decoration: none;
+	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
+.result-box #clipboard {
+	color: #000;
+	font-size: 27px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 39.5px;
+	width: 39.5px;
+	border-radius: 5px;
+	border: #fff solid 1px;
+	cursor: pointer;
+}
+.result-box #clipboard:hover {
+	font-size: 28px;
+	transition: 0.3s;
+}
+
+/* BUTTON STYLING */
+#generate {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 0.6rem;
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	cursor: pointer;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.btn {
+	display: flex;
+	justify-content: center;
+}
+
+/* OPTIONS STYLING */
+.opt {
+	display: flex;
+	font-size: large;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	
+}
+
+
+/* Gradient Background: 'https://codepen.io/FlorinPop17/pen/BaBePej?editors=1100' */
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
