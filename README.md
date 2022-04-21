@@ -1,5 +1,5 @@
-# [Random Password Generator](https://goodboyneon.github.io/passwordGenerator/){:target="\_blank"}
-<a href="https://goodboyneon.github.io/passwordGenerator/" target="_blank">Hello, world!</a>
+# [Random Password Generator](https://goodboyneon.github.io/passwordGenerator/)
+
 This is a simple random password generator made with javacript. You can clone this repository and use it to generate random passwords via your browser. Note that this is a practice project by me so there might be many fields of improvement but I did as good I possibly could. You can add prs (pull requests) to this repository if you have any suggestions. The complte process can be found on [CONTRIBUTING.md](https://github.com/GoodBoyNeon/passwordGenerator/blob/main/CONTRIBUTING.md) page.
 
 ## Installation
